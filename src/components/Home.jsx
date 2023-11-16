@@ -11,7 +11,7 @@ export default function Home() {
                <h1 className="md:text-[6vw] text-[9vw] font-bold text-[#4d648d] sm:leading-none leading-10">I build things for the web</h1>
             </div>
             <div className="mb-10 max-w-lg">
-               <p className="text-[#d0e1f9]">Lorem ipsum dolor sit amet, consectetur elit adipisicing. Numquam earum labore cumque commodi maiores error obcaecati sequi amet mollitia. Lorem ipsum dolor assumenda sit adipisicing ipsum</p>
+               <p className="text-[#d0e1f9]">I am a final-year student at Trunojoyo University. I have a keen interest in web programming, and currently, I am concentrating on enhancing my skills in front-end web development.</p>
             </div>
             <div className="">
                <button className="border-2 text-[#d0e1f9] px-10 py-4 rounded-md hover:[box-shadow:_4px_4px_0_rgb(204,168,135)]">Check out my course</button>

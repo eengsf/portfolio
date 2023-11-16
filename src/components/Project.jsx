@@ -27,7 +27,8 @@ export default function Project() {
                      </a>
                   </div>
                   <div className='md:bg-[#283655] md:py-7 md:px-7 rounded-md'>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam illo ex nostrum qui omnis repellat nam dolore facere quasi, fugiat animi necessitatibus, dolorum voluptatum itaque eaque ipsam eius totam quae.</p>
+                     <p>
+                        A note-taking application with features to add, delete, archive notes, and also restore archived notes. It can perform searches based on the note titles.</p>
                   </div>
                   <div className='flex md:justify-end items-center list-none gap-3'>
                      <li>React</li>
@@ -46,7 +47,7 @@ export default function Project() {
                      </a>
                   </div>
                   <div className='md:bg-[#283655] md:py-7 md:px-7 rounded-md'>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam illo ex nostrum qui omnis repellat nam dolore facere quasi, fugiat animi necessitatibus, dolorum voluptatum itaque eaque ipsam eius totam quae.</p>
+                     <p>A bookshelf application with features to add, delete, move tagged books, and also return books to their previous shelf. It can perform searches based on the book titles.</p>
                   </div>
                   <div className='flex justify-start items-center list-none gap-3'>
                      <li>HTML</li>
@@ -77,7 +78,7 @@ export default function Project() {
                      </a>
                   </div>
                   <div className='md:bg-[#283655] md:py-7 md:px-7 rounded-md'>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam illo ex nostrum qui omnis repellat nam dolore facere quasi, fugiat animi necessitatibus, dolorum voluptatum itaque eaque ipsam eius totam quae.</p>
+                     <p>A simple web application with the idea of creating a web gallery, which is part of a basic web programming assignment submission.</p>
                   </div>
                   <div className='flex md:justify-end items-center list-none gap-3'>
                      <li>HTML</li>

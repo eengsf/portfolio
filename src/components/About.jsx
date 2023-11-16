@@ -10,11 +10,13 @@ export default function About() {
             </div>
             <div className='md:grid md:grid-cols-7 flex flex-col gap-10 text-justify'>
                <div className="col-span-4 text-[#d0e1f9]">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perferendis autem, dolorem et officia soluta maiores fugit ipsum explicabo rerum, eum optio dolor, aliquam quis itaque vel veniam cupiditate quasi.</p>
-                  <p className='mt-3'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam in, <span className='text-[#4d648d]'>Lorem, ipsum dolor repudiandae ipsum.</span> magnam dolor illum vero assumenda debitis architecto nobis.</p>
-                  <p className='mt-3'>Lorem ipsum dolor sit, amet consectetur adipisicing elit <span className='text-[#4d648d]'>Lorem, ipsum dolor </span>. Eligendi, eveniet minus quas vero iusto et!</p>
-
-                  <h1 className='mt-3'>Here are a few technologies I have been working with recently:</h1>
+                  <p>
+                     Hello! My name is Shofiyul Fuad. I am a student at Trunojoyo University actively involved in the organization UKMFT SOKET, which focuses on robotics. In UKMFT SOKET, I am part of the robot team and have learned a lot, <span className='text-[#4d648d]'>especially in robotics programming,</span> leading me to participate in Indonesian robot contests.
+                  </p>
+                  <p className='mt-3'>
+                     Fast-forward to my final semester in 2022, I began to develop an interest in web programming, particularly in <span className='text-[#4d648d]'>front-end web development</span>. I started learning a lot about <span className='text-[#4d648d]'>front-end web development </span>from various social media platforms and took part in several online training sessions
+                  </p>
+                  <h1 className='mt-3'>Here are some technologies that I have learned:</h1>
                   <ul className='list-disc list-inside grid grid-cols-2'>
                      <li>HTML</li>
                      <li>CSS</li>

@@ -3,7 +3,7 @@ import shofiyul from '../assets/shofiyul.jpg'
 export default function About() {
    return (
       <>
-         <div id='about' className="flex flex-col md:px-[12%] px-[6%] gap-10">
+         <div id='about' className="flex flex-col md:px-[12%] md:pt-[12%] pt-[15%] px-[6%] gap-10 ">
             <div className="flex items-center">
                <h1 className="text-[#d0e1f9] me-[1vw] text-2xl font-bold">01. About Me</h1>
                <span className="md:w-[20vw] w-[40vw] h-[1px] bg-[#d0e1f9]"></span>
@@ -21,9 +21,11 @@ export default function About() {
                      <li>HTML</li>
                      <li>CSS</li>
                      <li>JavaScript</li>
-                     <li>React</li>
+                     <li>React js</li>
                      <li>Tailwind</li>
                      <li>Bootstrap</li>
+                     <li>Next js</li>
+                     <li>Mongodb</li>
                   </ul>
                </div>
                <div className='flex justify-center col-span-3'>

@@ -1,8 +1,9 @@
-import github from '../assets/github.svg'
-import ig from '../assets/ig.svg'
-import linkedin from '../assets/linkedin.svg'
-import codepen from '../assets/codepen.svg'
-import fb from '../assets/fb.svg'
+
+import { FiGithub } from "react-icons/fi";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { SiTiktok } from "react-icons/si";
 
 export default function Contact() {
    return (
@@ -19,11 +20,11 @@ export default function Contact() {
             <div className="text-[#d0e1f9] absolute bottom-5">
                <div className="md:hidden block">
                   <ul className='flex gap-3'>
-                     <li className='mb-3 list-none'><a href=""><img src={github} alt="" /></a></li>
-                     <li className='mb-3 list-none'><a href=""><img src={ig} alt="" /></a></li>
-                     <li className='mb-3 list-none'><a href=""><img src={linkedin} alt="" /></a></li>
-                     <li className='mb-3 list-none'><a href=""><img src={fb} alt="" /></a></li>
-                     <li className='mb-7 list-none'><a href=""><img src={codepen} alt="" /></a></li>
+                     <li className='mb-5 list-none'><a href="https://github.com/eengsf"><FiGithub size={20} color="white" /></a></li>
+                     <li className='mb-5 list-none'><a href=""><FaInstagram size={20} color='white' /></a></li>
+                     <li className='mb-5 list-none'><a href="https://www.linkedin.com/in/shofiyul-fuad-b8836628b/"><FaLinkedinIn size={20} color="white" /></a></li>
+                     <li className='mb-5 list-none'><a href=""><FaFacebookF size={20} color="white" /></a></li>
+                     <li className='mb-7 list-none'><a href="https://www.tiktok.com/@eengsf_?_t=8ia5kTpOlQf&_r=1"><SiTiktok size={20} color='white' /></a></li>
                   </ul>
                </div>
                <p>Built by Shofiyul Fuad</p>

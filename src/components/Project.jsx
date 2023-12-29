@@ -1,7 +1,7 @@
 import apkcatatan from '../assets/apkcatatan.png'
 import bookShelf from '../assets/bookShelf.png'
 import gallery from '../assets/gallery.png'
-import animeList from '../assets/animeList.png'
+import animeList from '../assets/anime.png'
 
 export default function Project() {
    return (

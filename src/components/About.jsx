@@ -1,4 +1,4 @@
-import shofiyul from '../assets/shofiyul.jpg'
+import shofiyul from '../assets/pp-resume.jpeg'
 
 export default function About() {
    return (

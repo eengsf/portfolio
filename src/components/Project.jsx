@@ -3,9 +3,10 @@ import apkcatatan from "../assets/apkcatatan.png";
 import bookShelf from "../assets/bookShelf.png";
 import animeList from "../assets/anime.png";
 import topiclist from "../assets/topicList.png";
+import onlineshop from "../assets/onlineShop.png";
 
 const value1 = {
-  no: "1",
+  no: "5",
   nama: "Book Shelf",
   paragraf: `A book shelf application with features to add, delete, move tagged
    books, and also return books to their previous shelf. It can perform
@@ -16,13 +17,13 @@ const value1 = {
 };
 
 const value2 = {
-  no: "2",
+  no: "4",
   nama: "Apk Notes",
   paragraf: `A note-taking application with features to add, delete, archive
               notes, and also restore archived notes. It can perform searches
               based on the note titles.`,
   link: "https://apk-catatan.vercel.app/",
-  lists: ["React", "Tailwindcss", "Vite"],
+  lists: ["React", "Tailwindcss"],
   asset: apkcatatan,
 };
 
@@ -38,12 +39,21 @@ const value3 = {
 };
 
 const value4 = {
-  no: "4",
+  no: "2",
   nama: "Topic Lists App",
   paragraf: `This application is a simple project that features CRUD (Create, Read, Update, Delete) operations using Next.js, Tailwind CSS, and MongoDB as its database.`,
   link: "https://cobafullstack.vercel.app/",
   lists: ["Next js", "Tailwindcss", "MongoBD"],
   asset: topiclist,
+};
+
+const value5 = {
+  no: "1",
+  nama: "Online Shop",
+  paragraf: `An interactive and responsive online shop application, built with modern technologies Next.js and Framer Motion.`,
+  link: "https://warung-mangan.vercel.app/",
+  lists: ["Next js", "Tailwindcss", "Framer Motion"],
+  asset: onlineshop,
 };
 
 export default function Project() {
@@ -59,10 +69,11 @@ export default function Project() {
           <span className="w-64 h-[1px] bg-[#d0e1f9]"></span>
         </div>
 
-        <SubProject gambar={true} value={value1} />
-        <SubProject gambar={false} value={value2} />
-        <SubProject gambar={true} value={value3} />
+        <SubProject gambar={true} value={value5} />
         <SubProject gambar={false} value={value4} />
+        <SubProject gambar={true} value={value3} />
+        <SubProject gambar={false} value={value2} />
+        <SubProject gambar={true} value={value1} />
       </div>
     </>
   );

@@ -3,50 +3,48 @@
 @tailwind utilities;
 
 .style-scrollbar::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
-	border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
 }
 
 .style-scrollbar::-webkit-scrollbar {
-	width: 6px;
-	background-color: white;
-	border-radius: 10px;
+  width: 6px;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .style-scrollbar::-webkit-scrollbar-thumb {
-	background-color: #4d648d;
-	border-radius: 10px;
+  background-color: #4d648d;
+  border-radius: 10px;
 }
 
-
-
 body::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-	background-color: #1e1f26;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #1e1f26;
 }
 
 body::-webkit-scrollbar {
-	width: 6px;
-	background-color: #1e1f26;
+  width: 6px;
+  background-color: #1e1f26;
 }
 
 body::-webkit-scrollbar-thumb {
-	background-color: #283655;
-	border-radius: 10px;
+  background-color: #283655;
+  border-radius: 10px;
 }
 
 .writing-vertical {
-	ransform: rotate(90deg);
-	transform-origin: left bottom;
-	white-space: nowrap;
-	writing-mode: vertical-lr;
+  transform: rotate(0deg);
+  transform-origin: left bottom;
+  white-space: nowrap;
+  writing-mode: vertical-lr;
 }
 
 .bg-image {
-	background-image: url('./assets/apkcatatan.png');
-	background-size: cover;
-	background-position: center;
-	border-radius: 12px;
+  background-image: url("./assets/apkcatatan.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
 }
 
 /* .bg-image::before {

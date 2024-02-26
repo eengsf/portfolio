@@ -55,6 +55,7 @@ export default function Project() {
         <SubProject posisiGambar={true} value={value1} />
         <SubProject posisiGambar={false} value={value2} />
         <SubProject posisiGambar={true} value={value3} />
+        <SubProject posisiGambar={false} value={value4} />
       </div>
     </>
   );

@@ -32,7 +32,7 @@ const value2 = {
 };
 const value1 = {
   no: "1",
-  nama: "Best Interaktif Responsif",
+  nama: "Web Interaktif Responsif",
   paragraf: `An interactive and responsive web project with several supported animation views, built with modern Next.js technology.`,
   link: "https://asc-sf.vercel.app/",
   lists: ["Next js", "Tailwindcss", "Redux Toolkit"],

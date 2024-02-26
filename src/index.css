@@ -40,12 +40,12 @@ body::-webkit-scrollbar-thumb {
   writing-mode: vertical-lr;
 }
 
-.bg-image {
+/* .bg-image {
   background-image: url("./assets/apkcatatan.png");
   background-size: cover;
   background-position: center;
   border-radius: 12px;
-}
+} */
 
 /* .bg-image::before {
 	content: "";

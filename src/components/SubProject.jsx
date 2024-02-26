@@ -1,18 +1,23 @@
-import SubGambarKanan from "./SubGambarKanan";
-import SubGambarKiri from "./SubGambarKiri";
+import Gambar from "./Gambar";
+import Text from "./Text";
 
-export default function SubProject({ gambar, value }) {
+const SubProject = ({ posisiGambar, value }) => {
   return (
     <>
-      <div className="text-[#d0e1f9] grid grid-cols-5 relative md:bg-none bg-image">
-        <div className="absolute top-0 left-0 w-full h-full rounded-xl bg-[#283655] md:opacity-0 opacity-90 hover:opacity-0"></div>
-
-        {gambar ? (
-          <SubGambarKiri value={value} />
+      <div className="w-full relative flex md:flex-row flex-col">
+        {!posisiGambar ? (
+          <>
+            <Text posisiGambar={posisiGambar} value={value} />
+            <Gambar value={value} />
+          </>
         ) : (
-          <SubGambarKanan value={value} />
+          <>
+            <Gambar value={value} />
+            <Text posisiGambar={posisiGambar} value={value} />
+          </>
         )}
       </div>
     </>
   );
-}
+};
+export default SubProject;

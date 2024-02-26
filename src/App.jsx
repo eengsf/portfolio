@@ -1,11 +1,10 @@
-import About from "./components/About"
-import Experience from "./components/Experience"
-import Info from "./components/Info"
-import Home from "./components/Home"
-import Navbar from "./components/Navbar"
-import Project from "./components/Project"
-import Contact from "./components/Contact"
-
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Info from "./components/Info";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import Project from "./components/Project";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -18,7 +17,7 @@ function App() {
       <Project />
       <Contact />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

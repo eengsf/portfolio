@@ -1,59 +1,42 @@
-import SubProject from "./SubProject";
-import apkcatatan from "../assets/apkcatatan.png";
-import bookShelf from "../assets/bookShelf.png";
-import animeList from "../assets/anime.png";
-import topiclist from "../assets/topicList.png";
+import articlelist from "../assets/article-list.png";
+import topicCrud from "../assets/topicCrud.png";
 import onlineshop from "../assets/onlineShop.png";
-
-const value1 = {
-  no: "5",
-  nama: "Book Shelf",
-  paragraf: `A book shelf application with features to add, delete, move tagged
-   books, and also return books to their previous shelf. It can perform
-   searches based on the book titles.`,
-  link: "https://bookshelf-flame.vercel.app/",
-  lists: ["HTML", "CSS", "JavaScript"],
-  asset: bookShelf,
-};
-
-const value2 = {
-  no: "4",
-  nama: "Apk Notes",
-  paragraf: `A note-taking application with features to add, delete, archive
-              notes, and also restore archived notes. It can perform searches
-              based on the note titles.`,
-  link: "https://apk-catatan.vercel.app/",
-  lists: ["React", "Tailwindcss"],
-  asset: apkcatatan,
-};
+import landingpage from "../assets/real-estate-lp.png";
+import SubProject from "./SubProject";
 
 const value3 = {
   no: "3",
-  nama: "Anime Lists App",
-  paragraf: `This application is a simple project that utilizes an API to
-  display Anime data. The application is built using Next.js and
-  Tailwind CSS.`,
-  link: "https://anime-list-eengsf.vercel.app/",
+  nama: "Article Lists App",
+  paragraf: `This application is a project that utilizes an API to display articles. It includes a feature to search for articles from several countries, specific categories, and other general topics.`,
+  link: "https://article-list-one.vercel.app/",
   lists: ["Next js", "Tailwindcss"],
-  asset: animeList,
+  asset: articlelist,
 };
 
 const value4 = {
-  no: "2",
-  nama: "Topic Lists App",
+  no: "4",
+  nama: "Topic CRUD",
   paragraf: `This application is a simple project that features CRUD (Create, Read, Update, Delete) operations using Next.js, Tailwind CSS, and MongoDB as its database.`,
   link: "https://cobafullstack.vercel.app/",
   lists: ["Next js", "Tailwindcss", "MongoBD"],
-  asset: topiclist,
+  asset: topicCrud,
 };
 
-const value5 = {
-  no: "1",
-  nama: "Online Shop",
-  paragraf: `An interactive and responsive online shop application, built with modern technologies Next.js and Framer Motion.`,
+const value2 = {
+  no: "2",
+  nama: "Toko Onlineku",
+  paragraf: `An interactive and responsive frontend web project for an online store, built with modern technologies Next.js and Framer Motion.`,
   link: "https://warung-mangan.vercel.app/",
   lists: ["Next js", "Tailwindcss", "Framer Motion"],
   asset: onlineshop,
+};
+const value1 = {
+  no: "1",
+  nama: "Best Interaktif Responsif",
+  paragraf: `An interactive and responsive web project with several supported animation views, built with modern Next.js technology.`,
+  link: "https://asc-sf.vercel.app/",
+  lists: ["Next js", "Tailwindcss", "Redux Toolkit"],
+  asset: landingpage,
 };
 
 export default function Project() {
@@ -61,19 +44,17 @@ export default function Project() {
     <>
       <div
         id="project"
-        className="flex flex-col md:px-[12%] px-[6%] py-[10%] gap-10">
+        className="flex flex-col md:px-[14%] px-[8%] py-[12%] w-full gap-10">
         <div className="flex items-center">
-          <h1 className="text-[#d0e1f9] me-[1vw] text-2xl font-bold">
+          <h1 className="text-white me-[1vw] text-2xl font-bold">
             03. Project
           </h1>
-          <span className="w-64 h-[1px] bg-[#d0e1f9]"></span>
+          <span className="w-64 h-[1px] bg-white"></span>
         </div>
 
-        <SubProject gambar={true} value={value5} />
-        <SubProject gambar={false} value={value4} />
-        <SubProject gambar={true} value={value3} />
-        <SubProject gambar={false} value={value2} />
-        <SubProject gambar={true} value={value1} />
+        <SubProject posisiGambar={true} value={value1} />
+        <SubProject posisiGambar={false} value={value2} />
+        <SubProject posisiGambar={true} value={value3} />
       </div>
     </>
   );

@@ -35,19 +35,19 @@ export default function Info() {
             </a>
           </li>
           <li className="ms-[12px] list-none">
-            <span className="block w-[1px] h-24 bg-[#d0e1f9]"></span>
+            <span className="block w-[1px] h-24 bg-white"></span>
           </li>
         </ul>
       </div>
       <div className="md:fixed md:block hidden mt-[35vh] right-0 bottom-0 me-[4vw]">
         <ul className="">
           <li className="list-none writing-vertical mb-7">
-            <a href="" className="text-[#d0e1f9]">
+            <a href="" className="text-white">
               shofiyulfuad797@gmail.com
             </a>
           </li>
           <li className="list-none ms-[10px]">
-            <span className="block w-[1px] h-24 bg-[#d0e1f9]"></span>
+            <span className="block w-[1px] h-24 bg-white"></span>
           </li>
         </ul>
       </div>

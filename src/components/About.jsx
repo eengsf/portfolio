@@ -7,13 +7,13 @@ export default function About() {
         id="about"
         className="flex flex-col md:px-[12%] md:pt-[12%] pt-[15%] px-[6%] gap-10 ">
         <div className="flex items-center">
-          <h1 className="text-[#d0e1f9] me-[1vw] text-2xl font-bold">
+          <h1 className="text-white me-[1vw] text-2xl font-bold">
             01. About Me
           </h1>
-          <span className="md:w-[20vw] w-[40vw] h-[1px] bg-[#d0e1f9]"></span>
+          <span className="md:w-[20vw] w-[40vw] h-[1px] bg-white"></span>
         </div>
         <div className="md:grid md:grid-cols-7 flex flex-col gap-10 text-justify">
-          <div className="col-span-4 text-[#d0e1f9]">
+          <div className="col-span-4 text-white">
             <p>
               Hello! My name is Shofiyul Fuad. I am a student at Trunojoyo
               University actively involved in the organization UKMFT SOKET,
